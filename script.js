@@ -51,7 +51,7 @@ const response = await fetch(geminiURL, {
 
 
 }
-// AIzaSyCYtn2JkcFcQKprVJy4ds6LaKo1IEFfrxo
+
 const EnviarFormulario = async(event) => {
     event.preventDefault()
     const apiKey = apiKeyInput.value
